@@ -1,0 +1,112 @@
+C:/Users/Menna/Downloads/Project/UpDown_counter.v {1 {vlog -work work C:/Users/Menna/Downloads/Project/UpDown_counter.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module UpDown_counter
+-- Compiling module counter_t
+
+Top level modules:
+	counter_t
+
+} {} {}} {C:/Users/Menna/Downloads/CA project/Teller.v} {1 {vlog -work work {C:/Users/Menna/Downloads/CA project/Teller.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module Taller
+
+Top level modules:
+	Taller
+
+} {} {}} C:/Users/Menna/Desktop/FF.v {1 {vlog -work work C:/Users/Menna/Desktop/FF.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module FF
+
+Top level modules:
+	FF
+
+} {} {}} C:/Users/Menna/Downloads/Project/7Seg.v {1 {vlog -work work C:/Users/Menna/Downloads/Project/7Seg.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module seg
+-- Compiling module seg_t
+
+Top level modules:
+	seg_t
+
+} {} {}} C:/Users/Menna/Downloads/Project/wtime.v {1 {vlog -work work C:/Users/Menna/Downloads/Project/wtime.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module waiting_time
+-- Compiling module wtime_t
+
+Top level modules:
+	wtime_t
+
+} {} {}} {C:/Users/Menna/Downloads/CA project/twodigit.v} {1 {vlog -work work {C:/Users/Menna/Downloads/CA project/twodigit.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module twodigit
+
+Top level modules:
+	twodigit
+
+} {} {}} C:/Users/Menna/Downloads/Project/slowClock.v {1 {vlog -work work C:/Users/Menna/Downloads/Project/slowClock.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module slowClock
+
+Top level modules:
+	slowClock
+
+} {} {}} {C:/Users/Menna/Downloads/CA project/7Seg.v} {1 {vlog -work work {C:/Users/Menna/Downloads/CA project/7Seg.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module sevensegment
+
+Top level modules:
+	sevensegment
+
+} {} {}} {C:/Users/Menna/Downloads/CA project/wtime.v} {1 {vlog -work work {C:/Users/Menna/Downloads/CA project/wtime.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module waiting_time
+
+Top level modules:
+	waiting_time
+
+} {} {}} C:/Users/Menna/Downloads/Project/FF.v {1 {vlog -work work C:/Users/Menna/Downloads/Project/FF.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module FF
+
+Top level modules:
+	FF
+
+} {} {}} C:/Users/Menna/Downloads/Project/flags.v {1 {vlog -work work C:/Users/Menna/Downloads/Project/flags.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module flags
+-- Compiling module flags_t
+
+Top level modules:
+	flags_t
+
+} {} {}} C:/Users/Menna/Desktop/UpDown_counter.v {1 {vlog -work work C:/Users/Menna/Desktop/UpDown_counter.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} C:/Users/Menna/Downloads/Project/test_unit.v {1 {vlog -work work C:/Users/Menna/Downloads/Project/test_unit.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module Unit_test
+-- Compiling module unit_test_t
+
+Top level modules:
+	unit_test_t
+
+} {} {}} C:/Users/Menna/Downloads/Project/Unit.v {1 {vlog -work work C:/Users/Menna/Downloads/Project/Unit.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module Unit
+
+Top level modules:
+	Unit
+
+} {} {}} C:/Users/Menna/Downloads/Project/Teller.v {1 {vlog -work work C:/Users/Menna/Downloads/Project/Teller.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module Teller
+-- Compiling module Teller_t
+
+Top level modules:
+	Teller_t
+
+} {} {}}

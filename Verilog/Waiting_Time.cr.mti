@@ -1,0 +1,95 @@
+{D:/Study/Faculty G2/CA project/wtime.v} {0 {vlog -work work {D:\Study\Faculty G2\CA project\wtime.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module wtime
+** Warning: D:\Study\Faculty G2\CA project\wtime.v(6): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:\Study\Faculty G2\CA project\wtime.v(7): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:\Study\Faculty G2\CA project\wtime.v(8): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:\Study\Faculty G2\CA project\wtime.v(9): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:\Study\Faculty G2\CA project\wtime.v(10): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:\Study\Faculty G2\CA project\wtime.v(11): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:\Study\Faculty G2\CA project\wtime.v(12): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:\Study\Faculty G2\CA project\wtime.v(18): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:\Study\Faculty G2\CA project\wtime.v(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Error: D:\Study\Faculty G2\CA project\wtime.v(5): (vlog-2110) Illegal reference to net "wtime".
+
+** Error: D:\Study\Faculty G2\CA project\wtime.v(6): (vlog-2110) Illegal reference to net "wtime".
+
+** Error: D:\Study\Faculty G2\CA project\wtime.v(7): (vlog-2110) Illegal reference to net "wtime".
+
+** Error: D:\Study\Faculty G2\CA project\wtime.v(8): (vlog-2110) Illegal reference to net "wtime".
+
+** Error: D:\Study\Faculty G2\CA project\wtime.v(9): (vlog-2110) Illegal reference to net "wtime".
+
+** Error: D:\Study\Faculty G2\CA project\wtime.v(10): (vlog-2110) Illegal reference to net "wtime".
+
+** Error: D:\Study\Faculty G2\CA project\wtime.v(11): (vlog-2110) Illegal reference to net "wtime".
+
+** Error: D:\Study\Faculty G2\CA project\wtime.v(12): (vlog-2110) Illegal reference to net "wtime".
+
+** Error: D:\Study\Faculty G2\CA project\wtime.v(13): (vlog-2110) Illegal reference to net "wtime".
+
+** Error: D:\Study\Faculty G2\CA project\wtime.v(14): (vlog-2110) Illegal reference to net "wtime".
+
+** Error: D:\Study\Faculty G2\CA project\wtime.v(15): (vlog-2110) Illegal reference to net "wtime".
+
+** Error: D:\Study\Faculty G2\CA project\wtime.v(16): (vlog-2110) Illegal reference to net "wtime".
+
+** Error: D:\Study\Faculty G2\CA project\wtime.v(17): (vlog-2110) Illegal reference to net "wtime".
+
+** Error: D:\Study\Faculty G2\CA project\wtime.v(18): (vlog-2110) Illegal reference to net "wtime".
+
+** Error: D:\Study\Faculty G2\CA project\wtime.v(19): (vlog-2110) Illegal reference to net "wtime".
+
+** Error: D:\Study\Faculty G2\CA project\wtime.v(20): (vlog-2110) Illegal reference to net "wtime".
+
+** Error: D:\Study\Faculty G2\CA project\wtime.v(21): (vlog-2110) Illegal reference to net "wtime".
+
+** Error: D:\Study\Faculty G2\CA project\wtime.v(22): (vlog-2110) Illegal reference to net "wtime".
+
+** Error: D:\Study\Faculty G2\CA project\wtime.v(23): (vlog-2110) Illegal reference to net "wtime".
+
+** Error: D:\Study\Faculty G2\CA project\wtime.v(24): (vlog-2110) Illegal reference to net "wtime".
+
+** Error: D:\Study\Faculty G2\CA project\wtime.v(25): (vlog-2110) Illegal reference to net "wtime".
+
+** Error: D:\Study\Faculty G2\CA project\wtime.v(26): (vlog-2110) Illegal reference to net "wtime".
+
+** Error: D:\Study\Faculty G2\CA project\wtime.v(27): (vlog-2110) Illegal reference to net "wtime".
+
+** Error: D:\Study\Faculty G2\CA project\wtime.v(28): (vlog-2110) Illegal reference to net "wtime".
+
+
+} {22.0 23.0 24.0 25.0 26.0 27.0 28.0 29.0 30.0 31.0 32.0 33.0 34.0 35.0 36.0 37.0 38.0 39.0 40.0 41.0 42.0 43.0 44.0 45.0 46.0 47.0 48.0 49.0 50.0 51.0 52.0 53.0 54.0 55.0 56.0 57.0 58.0 59.0 60.0 61.0 62.0 63.0 64.0 65.0 66.0 67.0 68.0 69.0} {}} {D:/Study/Faculty G2/CA project/7Seg.v} {1 {vlog -work work {D:/Study/Faculty G2/CA project/7Seg.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module sevensegment
+
+Top level modules:
+	sevensegment
+
+} {} {}} {D:/Study/Faculty G2/CA project/twodigit.v} {1 {vlog -work work {D:/Study/Faculty G2/CA project/twodigit.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module twodigit
+
+Top level modules:
+	twodigit
+
+} {} {}} {D:/Study/Faculty G2/CA project/Teller.v} {1 {vlog -work work {D:/Study/Faculty G2/CA project/Teller.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module Taller
+
+Top level modules:
+	Taller
+
+} {} {}} {D:/Study/Faculty G2/CA project/Unit.v} {1 {vlog -work work {D:/Study/Faculty G2/CA project/Unit.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+
+} {} {}}

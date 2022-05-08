@@ -1,0 +1,50 @@
+C:/Users/User/Downloads/project/slowClock.v {1 {vlog -work work C:/Users/User/Downloads/project/slowClock.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module slowClock
+
+Top level modules:
+	slowClock
+
+} {} {}} C:/Users/User/Downloads/project/7Seg.v {1 {vlog -work work C:/Users/User/Downloads/project/7Seg.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module seg
+
+Top level modules:
+	seg
+
+} {} {}} C:/Users/User/Downloads/project/wtime.v {1 {vlog -work work C:/Users/User/Downloads/project/wtime.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module waiting_time
+
+Top level modules:
+	waiting_time
+
+} {} {}} C:/Users/User/Downloads/project/Unit.v {1 {vlog -work work C:/Users/User/Downloads/project/Unit.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module Unit
+
+Top level modules:
+	Unit
+
+} {} {}} C:/Users/User/Downloads/project/UpDown_counter.v {1 {vlog -work work C:/Users/User/Downloads/project/UpDown_counter.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module UpDown_counter
+
+Top level modules:
+	UpDown_counter
+
+} {} {}} C:/Users/User/Downloads/project/Teller.v {1 {vlog -work work C:/Users/User/Downloads/project/Teller.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module Teller
+
+Top level modules:
+	Teller
+
+} {} {}} C:/Users/User/Downloads/project/FF.v {1 {vlog -work work C:/Users/User/Downloads/project/FF.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module FF
+
+Top level modules:
+	FF
+
+} {} {}}

@@ -1,0 +1,32 @@
+// Module for encoding the 3bit tellers conditions into 2bit 
+// this by using Full Adder to make 3 Taller  00 01 10 00
+module Teller (teller, tcount);
+input [2:0]teller;
+output wire [1:0] tcount;
+
+// Sum is tcount[0] 
+// S = A ^ B ^ C
+assign tcount [0] = teller[0] ^ teller[1] ^ teller[2];
+
+// Carry is the tcount[1]
+// Carry = AB + ACin + BCin
+assign tcount [1] = (teller[0] & teller[1]) + (teller[2] & teller[1]) + (teller[0] & teller[2]) ;
+endmodule 
+
+
+module Teller_t ();
+  reg [2:0] teller;
+  wire [1:0] tcount;
+  initial
+  begin 
+  teller[2] = 0; teller[1] = 0; teller[0] = 0; 
+  #100; teller[2] = 0; teller[1] = 0; teller[0] = 1;
+  #100; teller[2] = 0; teller[1] = 1; teller[0] = 0;
+  #100; teller[2] = 0; teller[1] = 1; teller[0] = 1;
+  #100; teller[2] = 1; teller[1] = 0; teller[0] = 0;
+  #100; teller[2] = 1; teller[1] = 0; teller[0] = 1;
+  #100; teller[2] = 1; teller[1] = 1; teller[0] = 0;
+  #100; teller[2] = 1; teller[1] = 1; teller[0] = 1;
+  end
+  Teller t(teller, tcount);
+endmodule

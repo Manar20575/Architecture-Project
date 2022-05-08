@@ -1,0 +1,70 @@
+{D:/Study/Faculty G2/FFinal/Project/7Seg.v} {1 {vlog -work work {D:/Study/Faculty G2/FFinal/Project/7Seg.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module seg
+-- Compiling module seg_t
+
+Top level modules:
+	seg_t
+
+} {} {}} {D:/Study/Faculty G2/FFinal/Project/wtime.v} {1 {vlog -work work {D:/Study/Faculty G2/FFinal/Project/wtime.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module waiting_time
+-- Compiling module wtime_t
+
+Top level modules:
+	wtime_t
+
+} {} {}} {D:/Study/Faculty G2/FFinal/Project/test_unit.v} {1 {vlog -work work {D:/Study/Faculty G2/FFinal/Project/test_unit.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module Unit_test
+-- Compiling module unit_test_t
+
+Top level modules:
+	unit_test_t
+
+} {} {}} {D:/Study/Faculty G2/FFinal/Project/FF.v} {1 {vlog -work work {D:/Study/Faculty G2/FFinal/Project/FF.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module FF
+
+Top level modules:
+	FF
+
+} {} {}} {D:/Study/Faculty G2/FFinal/Project/Teller.v} {1 {vlog -work work {D:/Study/Faculty G2/FFinal/Project/Teller.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module Teller
+-- Compiling module Teller_t
+
+Top level modules:
+	Teller_t
+
+} {} {}} {D:/Study/Faculty G2/FFinal/Project/Unit.v} {1 {vlog -work work {D:/Study/Faculty G2/FFinal/Project/Unit.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module Unit
+
+Top level modules:
+	Unit
+
+} {} {}} {D:/Study/Faculty G2/FFinal/Project/UpDown_counter.v} {1 {vlog -work work {D:/Study/Faculty G2/FFinal/Project/UpDown_counter.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module UpDown_counter
+-- Compiling module counter_t
+
+Top level modules:
+	counter_t
+
+} {} {}} {D:/Study/Faculty G2/FFinal/Project/flags.v} {1 {vlog -work work {D:/Study/Faculty G2/FFinal/Project/flags.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module flags
+-- Compiling module flags_t
+
+Top level modules:
+	flags_t
+
+} {} {}} {D:/Study/Faculty G2/FFinal/Project/slowClock.v} {1 {vlog -work work {D:/Study/Faculty G2/FFinal/Project/slowClock.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module slowClock
+
+Top level modules:
+	slowClock
+
+} {} {}}

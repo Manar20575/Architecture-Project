@@ -1,0 +1,18 @@
+module UpDownCounter (input wire up_down , reset , clk, output reg [2:0] count );
+initial 
+begin 
+count =3'b000;
+end 
+
+always @(posedge clk , posedge reset )
+begin
+if(reset == 1) 
+  count <= 'b000;
+ else 
+if( up_down == 1) 
+  count <= count + 1;
+ else 
+  count <= count - 1;
+end
+
+endmodule
