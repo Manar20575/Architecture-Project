@@ -4,6 +4,8 @@
 #include "counter.h"
 #include "flags.h"
 #include "teller.h"
+#include "wtime.h"
+#include "seg.h"
 int main ()
 {
     // We have five inputs to get from the user
@@ -17,7 +19,7 @@ int main ()
     bool full, empty, alarm;
     int pcount;
     int display1, display2, display3;
-    int tcount[1];
+    int tcount[1], wtime;
     // We use this to show two digits in seven segment
     int first_digit, second_digit;
 
@@ -28,18 +30,18 @@ int main ()
     empty, full = flags(pcount, empty, full);
 
     // We prepare the tellers situation with 2bit instead of 3bit  
-    * tcount = Teller (teller, tcount);
+    *tcount = Teller (teller, tcount);
 
     // We calculate the waiting time by getting it from the rom 
-    waiting_time wt(pcount, tcount, wtime);
+    wtime = waiting_time(pcount, tcount, wtime);
 
     // Then we get the two digits separately
-    assign first_digit = wtime % 10;
-    assign second_digit = wtime / 10;
+    first_digit = wtime % 10;
+    second_digit = wtime / 10;
 
     // It's time to display the results above 
-    seg d1 (first_digit, display1);
-    seg d2 (second_digit, display2);		
-    seg d3 (pcount, display3);
+    display1 = seg (first_digit, display1);
+    display2 = seg (second_digit, display2);		
+    display3 = seg (pcount, display3);
     return 0;
 }
