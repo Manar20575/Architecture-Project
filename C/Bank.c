@@ -62,11 +62,11 @@ int main ()
         }
         if (p_alarmflag (pcount_tst))
         {
-            pcount_tst++;
+            pcount_tst == -1 ? pcount_tst++ : pcount_tst--;
         }
         if (t_alarmflag (tcount_tst))
         {
-            tcount_tst++;
+            tcount_tst == -1 ? tcount_tst++ : tcount_tst--;
         }
         if (emptyflag (pcount))
         {
