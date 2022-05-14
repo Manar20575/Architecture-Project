@@ -1,1 +1,0 @@
-int waiting_time (int pcount, int tcount, int wtime);

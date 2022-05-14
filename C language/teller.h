@@ -1,1 +1,0 @@
-int *Teller (int *teller, int *tcount);
