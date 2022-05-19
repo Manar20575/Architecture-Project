@@ -14,20 +14,20 @@ int main ()
     int pcount = 0, tcount = 0, exit, check;
     // output
     bool full, empty, alarm;
-    int wtime = 0
+    int wtime = 0;
     // for checking the limits of inputs
     int tcount_tst, pcount_tst;
 
     // This statement to welcome the user in first input
     printf("Welcome to our bank system\n");
+    printf("To add teller enter 3\n");
+    printf("To remove Teller enter -3\n");
+    printf("To count up enter 7\n");
+    printf("To count down enter -7\n");
+    printf("To reset the system enter 0\n");
+    printf("To exit from the system enter -1\n");
     while (true)
     {
-        printf("To add teller enter 3\n");
-        printf("To remove Teller enter -3\n");
-        printf("To count up enter 7\n");
-        printf("To count down enter -7\n");
-        printf("To reset the system enter 0\n");
-        printf("To exit from the system enter -1\n");
         scanf("%d", &check);
         switch (check)
         {
