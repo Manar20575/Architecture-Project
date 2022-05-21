@@ -191,7 +191,7 @@ int waiting_time (int pcount, int tcount)
     int sub, sum, mult;
     // wtime = 3 * (pcount + tcount - 1) / tcount
     // if pcount = 0, wtime = 0
-    if (pcount == 0)
+    if (pcount == 0 || tcount == 0)
     {
         return 0;
     }
