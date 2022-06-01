@@ -2,10 +2,10 @@
 #include <stdbool.h> 
 int pcounter (bool updown, int pcount);
 int tcounter (bool updown, int tcount);
-int emptyflag (int pcount);
-int fullflag (int pcount);
-bool p_alarmflag (int pcount);
-bool t_alarmflag (int tcount);
+void emptyflag (int pcount);
+void fullflag (int pcount);
+void p_alarmflag (int pcount);
+void t_alarmflag (int tcount);
 int waiting_time (int pcount, int tcount);
 int main ()
 {
@@ -17,7 +17,6 @@ int main ()
     int wtime = 0;
     // for checking the limits of inputs
     int tcount_tst, pcount_tst;
-
     // This statement to welcome the user in first input
     printf("Welcome to our bank system\n");
     printf("To add teller enter 3\n");
@@ -36,36 +35,31 @@ int main ()
             case 3:
                 tcount_tst = tcounter(1, tcount);
                 tcount = tcount_tst != 4 ? tcount_tst : tcount;
-                wtime = waiting_time (pcount, tcount);
                 break;
             // if the input is -3 the teller count is decreased by 1
             // with the condition for the alarm if the user crossed the limits
             case -3:
                 tcount_tst = tcounter(0, tcount);
                 tcount = tcount_tst != -1 ? tcount_tst : tcount;
-                wtime = waiting_time (pcount, tcount);
                 break;
             // if the input is 7 the people count is increased by 1
             // with the condition for the alarm if the user crossed the limits
             case 7:
                 pcount_tst = pcounter(1, pcount);
                 pcount = pcount_tst != 8 ? pcount_tst : pcount;
-                wtime = waiting_time (pcount, tcount);
                 break;
             // if the input is -7 the people count is decreased by 1
             // with the condition for the alarm if the user crossed the limits
             case -7:
                 pcount_tst = pcounter(0, pcount);
                 pcount = pcount_tst != -1 ? pcount_tst : pcount;
-                wtime = waiting_time (pcount, tcount);
                 break;
             // if the input is 0 the program is reset  
             case 0:
                 pcount = 0;
                 tcount = 0;
-                wtime = waiting_time (pcount, tcount);
                 break;
-            // if the input is -1 the program colse
+            // if the input is -1 the program close
             case -1:
                 exit = -1;
                 break;
@@ -77,25 +71,14 @@ int main ()
             break;
         }
         // Check limits
-        if (p_alarmflag (pcount_tst))
-        {
-            pcount_tst++;
-        }
-        if (t_alarmflag (tcount_tst))
-        {
-            tcount_tst++;
-        }
+        p_alarmflag (pcount_tst);
+        t_alarmflag (tcount_tst);
         // check if empty
-        if (emptyflag (pcount))
-        {
-            printf("The queue is empty.\n");
-        }
+        emptyflag (pcount);
         // Check if full
-        if (fullflag (pcount))
-        {
-            printf("The queue is full.\n");
-        }
+        fullflag (pcount);
         // Print the number of people and waiting time in every order
+        wtime = waiting_time (pcount, tcount);
         printf("Waiting time is %d\n", wtime);
         printf("The Pcount is %d\n\n", pcount);
     }
@@ -106,7 +89,7 @@ int main ()
 // The counter of people with limits [0:7]
 int pcounter (bool updown, int pcount)
 {
-    if (updown == 1)
+    if (updown)
     {
         if (pcount == 7)
         {
@@ -127,7 +110,7 @@ int pcounter (bool updown, int pcount)
 // The counter of tellers with limits [0:3]
 int tcounter (bool updown, int tcount)
 {
-    if (updown == 1)
+    if (updown)
     {
         if (tcount == 3)
         {
@@ -146,44 +129,44 @@ int tcounter (bool updown, int tcount)
     return tcount;
 }
 // If empty 
-int emptyflag (int pcount)
+void emptyflag (int pcount)
 {
-    return pcount == 0;
+    if (pcount == 0)
+    {
+        printf("The queue is empty.\n");
+    }
 }
 // If full
-int fullflag (int pcount)
+void fullflag (int pcount)
 {
-    return pcount == 7;
+    if (pcount == 7)
+    {
+        printf("The queue is full.\n");
+    }
 }
 // If crossed the limits for people
-bool p_alarmflag (int pcount)
+void p_alarmflag (int pcount)
 {
     if (pcount == 8)
     {
         printf("The maximum number of people we can add is 7, Now you only can remove.\n");
-        return 1;
     }
     else if (pcount == -1)
     {
         printf("There is no one in the queue to leave.\n");
-        return 1;
     }
-    return 0;
 }
 // If crossed the limits for tellers
-bool t_alarmflag (int tcount)
+void t_alarmflag (int tcount)
 {
     if (tcount == 4)
     {
         printf("The maximun number of tellers is 3, Now you only can remove.\n");
-        return 1;
     }
     else if (tcount == -1)
     {
         printf("There is no tellers to remove.\n");
-        return 1;
     }
-    return 0;
 }
 // function for calculating the waiting time
 int waiting_time (int pcount, int tcount)
@@ -191,7 +174,7 @@ int waiting_time (int pcount, int tcount)
     int sub, sum, mult;
     // wtime = 3 * (pcount + tcount - 1) / tcount
     // if pcount = 0, wtime = 0
-    if (pcount == 0 || tcount == 0)
+    if (pcount == 0)
     {
         return 0;
     }
