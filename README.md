@@ -4,4 +4,4 @@ Implementing an embedded system inside a bank which monitors the clients queue i
 Menna Omran, Manar Hamada and Mona Hamdy
 
 ### For more details Check :
-https://drive.google.com/drive/folders/1tK1_Y96ZUmE4k16kSJi8sUkOORgHyRcs
+https://drive.google.com/file/d/1xx4a9fX1Fn299bipuKdIKXZUUrTjWjCC/view?usp=sharing
